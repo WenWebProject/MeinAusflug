@@ -1,0 +1,334 @@
+.city{
+    width: 1360px;
+    height:auto;
+    border: 5px solid red;
+  }
+
+/* Destination-Card-View */
+.City_Card{
+position: relative;
+width: 1350px;
+height: 644px;
+background: #FFFFFF;
+border-radius: 25px;
+border: 5px solid blue;
+}
+
+
+/* City, Country */
+.cityname{
+position: absolute;
+width: 273px;
+height: 60px;
+left: 35px;
+top: 2px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+color: #000000;
+}
+
+
+/* Destination Subtext */
+.Subtext{
+position: absolute;
+width: 232px;
+height: 36px;
+left: 35px;
+top: 75px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+color: #000000;
+}
+
+
+/* 143 Reviews */
+.Reviews{
+position: absolute;
+width: 193px;
+height: 24px;
+left: 1176px;
+top: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+color: #000000;
+}
+
+
+/* Star Frame */
+
+/* Auto layout */
+.starLayout{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 20px;
+gap: 10px;
+
+position: absolute;
+width: 249.53px;
+height: 50px;
+left: 1039px;
+top: 64px;
+
+background: #DBDBDB;
+border-radius: 500px;
+}
+
+
+.star{
+width: 32.33px;
+height: 32px;
+background: #FF5900;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+/* 4.6 */
+.zahl{
+width: 32px;
+height: 30px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+/* city description */
+.description{
+position: absolute;
+width: 510px;
+height: 360px;
+left: 813px;
+top: 133px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #000000;
+}
+
+
+/* Button */
+
+.ButtonLayout{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+position: absolute;
+width: 354px;
+height: 65px;
+left: 848px;
+top: 536px;
+background: #FF5900;
+border-radius: 50px;
+}
+
+
+/* btn-frame */
+
+.Button{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px 40px;
+width: 354px;
+height: 65px;
+background: #FF5900;
+border-radius: 50px;
+}
+
+
+
+
+/* btn-text */
+.Button_text{
+width: 354px;
+height: 65px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: medium;
+font-size: 28px;
+color: #FFFFFF;
+}
+
+
+
+/* Frame 4 icons */
+
+.icon1Layout{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 5px;
+position: absolute;
+width: 38.38px;
+height: 40px;
+left: 813px;
+top: 69px;
+background: #373737;
+opacity: 0.4;
+border-radius: 10px;
+}
+
+
+.icon {
+width: 33.04px;
+height: 30px;
+background: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.icon2Layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    width: 38.38px;
+    height: 40px;
+    left: 865px;
+    top: 69px;
+    background: #373737;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+.icon3Layout{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 5px;
+position: absolute;
+width: 38.38px;
+height: 40px;
+left: 917px;
+top: 69px;
+background: #373737;
+opacity: 0.4;
+border-radius: 10px;
+}
+
+
+.icon4Layout{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 5px;
+position: absolute;
+width: 38.38px;
+height: 40px;
+left: 969px;
+top: 69px;
+background: #373737;
+opacity: 0.4;
+border-radius: 10px;
+}
+
+
+/* image 1 */
+.Frame img{
+    
+    width: 705px;
+    height: 441px;
+    left: 35px;
+    top: 133px;
+    border-radius: 15px;
+    object-fit: cover;
+    }
+
+/* Slideshow container */
+.slideshow-container {
+    width: 715px;
+    left: 35px;
+    top: 133px;
+    position: absolute;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    width: auto;
+      
+    padding: 2px;
+    color: #FF5900;
+    
+    font-weight: bold;
+    font-size:40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    }
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 10px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
